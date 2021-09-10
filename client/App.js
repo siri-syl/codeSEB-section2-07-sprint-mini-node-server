@@ -12,6 +12,7 @@ class App {
       method: 'POST',
       body: JSON.stringify(body),
       headers: {
+        // 'Content-Type': 'text/plain'
         'Content-Type': 'application/json'
       }
     })
